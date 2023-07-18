@@ -1,11 +1,10 @@
 #!/usr/bin/python3
-"""module for the class Review"""
-
+"""Contains the Review model"""
 from models.base_model import BaseModel
 
 
 class Review(BaseModel):
-    """represents instances of the class Review"""
+    """Implements the Review model"""
     place_id = ""
     user_id = ""
     text = ""
